@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:hw/popUp.dart';
 
+import 'ArgumentTask/StartScreen.dart';
 import 'DropDownBtn.dart';
 import 'GridView.dart';
 import 'LogInPageTask.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: LogIn()
+        home: Start()
 
     );
   }
